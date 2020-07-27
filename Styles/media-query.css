@@ -1,0 +1,52 @@
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .home-button {
+        margin-bottom: 10px;
+    }
+
+    .navigation-wrapper > .trade-buttons {
+        margin-bottom: 10px;
+    }
+
+    .function-wrapper {
+        padding: 35px 20px;
+    }
+
+    .extender {
+        border-top: 15px solid white;
+        background-image: url(../Pictures/Backgrounds/Extender.jpg);
+        height: 550px;
+    }
+
+    .feature-wrapper {
+        width: 100%;
+        background-size: contain;
+        border-top: none;
+        box-shadow: inset 0px -131px 64px -93px rgba(0, 0, 0, 0.58);
+    }
+
+    .feature-wrapper > .column-wrapper {
+        flex-direction: column;
+        margin-top: -560px;
+    }
+
+    .map {
+        margin-top: -450px;
+    }
+
+    .footer-wrapper > .footer-content {
+        width: 100%;
+    }
+
+    .footer-wrapper > .footer-content > .footer-logo img {
+        width: 100%;
+    }
+    .footer-wrapper > .footer-content > .trade-buttons {
+        width: 100%;
+        justify-content: center;
+    }
+}

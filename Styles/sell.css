@@ -1,0 +1,50 @@
+.sell-header {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.sell-header > .sell-header-bg {
+    background-image: url(../Pictures/Backgrounds/sell-header-bg.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+
+.sell-header > .sell-header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    position: absolute;
+}
+
+.sell-header > .sell-header-content > .sell-title {
+    background-color: darkgoldenrod;
+    padding: 8px;
+    color: #11122b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.vendor-registration-form {
+    display: flex;
+    justify-content: center;
+}
+
+.vendor-registration-form iframe {
+    height: 410px;
+}

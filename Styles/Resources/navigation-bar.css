@@ -1,0 +1,17 @@
+.navigation-wrapper {
+    /* navigation link styles */
+    background-color: white;
+    /* Flex container */
+    padding: 10px;
+}
+
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .trade-buttons {
+    display: flex;
+    justify-content: space-between;
+}

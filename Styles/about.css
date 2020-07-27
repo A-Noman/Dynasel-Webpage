@@ -1,0 +1,100 @@
+.about-header {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.about-header > .about-header-bg {
+    background-image: url(../Pictures/Backgrounds/about-header-bg.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+
+.about-header > .about-header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    position: absolute;
+}
+
+.about-header > .about-header-content > .about-title {
+    background-color: darkgoldenrod;
+    padding: 8px;
+    color: #11122b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content > .about-content-wrapper {
+    width: 1000px;
+}
+
+
+.about-content > .about-content-wrapper img {
+    width: 250px;
+    margin: 20px 20px 5px 0px;
+    float: left;
+}
+
+.about-content > .about-content-wrapper > .about-text {
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.about-content > .about-content-wrapper > .about-text p {
+    color: darkgray;
+}
+
+
+/* Squares styles */
+
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: -4px;
+}
+
+.squares-wrapper > .squares > .square > .square-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.squares-wrapper > .squares > .square > .square-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+

@@ -1,0 +1,105 @@
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #11122b;
+    padding: 20px 0px 0px 0px;
+    height: 400px;
+}
+
+.footer-wrapper > .footer-content {
+    width: 1000px;
+    display: grid;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.footer-wrapper > .footer-content > .trade-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-wrapper > .footer-content > .trade-buttons > .Buy-button {
+    background-color: #245f86;
+    padding: 20px 30px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer-wrapper > .footer-content > .trade-buttons > .Sell-button {
+    background-color: #398AC1;
+    padding: 20px 30px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer-wrapper > .footer-content > .trade-buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-wrapper > .footer-content > .trade-buttons .Buy-button {
+    transition: 0.5s
+}
+
+.footer-wrapper > .footer-content > .trade-buttons > .Buy-button:hover {
+    background-color: #cbcbcb;
+}
+
+.footer-wrapper > .footer-content > .trade-buttons > .Buy-button:hover a {
+    color: black;
+}
+
+.footer-wrapper > .footer-content > .trade-buttons .Sell-button {
+    transition: 0.5s
+}
+
+.footer-wrapper > .footer-content > .trade-buttons > .Sell-button:hover {
+    background-color: #cbcbcb;
+}
+
+.footer-wrapper > .footer-content > .trade-buttons > .Sell-button:hover a {
+    color: black;
+}
+
+.footer-wrapper > .footer-content > .link-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-wrapper > .footer-content > .link-wrapper a {
+    transition: 0.5s
+}
+
+.footer-wrapper > .footer-content > .link-wrapper a:hover {
+    color: gold;
+    letter-spacing: 2px;
+}
+
+.footer-wrapper > .footer-content > .link-wrapper div {
+    width: 70px;
+    text-align: center;
+}
+
+.footer-wrapper > .footer-content > .quote {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.footer-wrapper > .footer-content > .copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.footer-wrapper > .footer-content > .copyright i {
+    margin-right: 5px;
+    color: #cbcbcb;
+}
