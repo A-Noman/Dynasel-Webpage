@@ -1,7 +1,7 @@
 /* function section */
 .function-wrapper {
     background-image: url(../Pictures/Backgrounds/Scrap-background.jpg);
-    height: 300px;
+    height: 230px;
     padding: 100px;
     background-attachment: fixed;
     background-position: center;
@@ -9,21 +9,39 @@
     background-size: cover;
 }
 
-.function-wrapper > .top-heading {
+/* .function-wrapper > .top-heading {
     padding: 2px 15px;
     background-color: #398AC1;
     color: #ffffff;
-    width: 430px;
+    width: 335px;
     margin-bottom: 15px;
     border-radius: 10px;
-}
+} */
 
 .function-wrapper > .bottom-heading {
     padding: 2px 15px;
     background-color: #245f86;
     color: #ffffff;
-    width: 90px;
+    width: 255px;
     border-radius: 10px;
+}
+
+.about-button {
+    padding: 2px 15px;
+    background-color: #398AC1;
+    color: #ffffff;
+    width: 345px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #398AC1;
+    outline: none;
+    transition: 0.5s;
+}
+
+.about-button:hover {
+    background-color: #cbcbcb;
+    border: 1px solid #cbcbcb;
+    color: black;
 }
 
 
@@ -41,13 +59,8 @@
     box-shadow: inset 0px -131px 64px -93px rgba(0, 0, 0, 0.58);
 }
 
-.feature-wrapper p {
-    color: black;
-}
-
 .feature-wrapper div {
     padding: 20px;
-    margin: 20px;
     width: 300px;
     text-align: center;
     border-bottom: 5px solid transparent;
@@ -60,7 +73,6 @@
     justify-content: space-between;
     align-items: center;
     width: 1300px;
-    margin-top: 20px;
 }
 
 .feature-wrapper > .column-wrapper div:hover {
@@ -72,13 +84,10 @@
 }
 
 .feature-wrapper > .column-wrapper i {
-    font-size: 1.5em;
-    color: black;
+    font-size: 1.7em;
+    color: white;
 }
 
-/* Map section */
-.map iframe {
-    width: 100%;
-    height: 330px;
-    display: block;
+.feature-wrapper > .column-wrapper h1 {
+    color: #245f86;
 }

@@ -51,7 +51,7 @@
 
 
 .about-content > .about-content-wrapper img {
-    width: 250px;
+    width: 256px;
     margin: 20px 20px 5px 0px;
     float: left;
 }
@@ -63,7 +63,8 @@
 }
 
 .about-content > .about-content-wrapper > .about-text p {
-    color: darkgray;
+    color: #3e4348;
+    font-size: 1.1em;
 }
 
 
@@ -96,5 +97,9 @@
     align-items: center;
     flex-direction: column;
     padding: 42px;
+}
+
+.squares-wrapper > .squares > .square > .square-text p {
+    color: darkgray;
 }
 

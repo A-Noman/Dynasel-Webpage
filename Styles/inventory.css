@@ -1,0 +1,81 @@
+.inventory-header {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.inventory-header > .inventory-header-bg {
+    background-image: url(../Pictures/Backgrounds/inventory-header-bg.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+
+.inventory-header > .inventory-header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    position: absolute;
+}
+
+.inventory-header > .inventory-header-content > .inventory-title {
+    background-color: darkgoldenrod;
+    padding: 8px;
+    color: #11122b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.inventory-content {
+    display: flex;
+    justify-content: center;
+}
+
+.inventory-content p {
+    color: #3e4348;
+}
+
+.inventory-content > .inventory-content-wrapper {
+    width: 1000px;
+}
+
+.inventory-content > .inventory-content-wrapper > .non-ferrous > .inventory-photo-wrapper {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 300px 300px 300px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* IMAGE EDITS */
+
+.inventory-content > .inventory-content-wrapper img {
+    object-fit: cover;
+    height: 250px;
+    width: 300px;
+}
+
+.sample-image {
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.sample-image:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
