@@ -97,9 +97,14 @@
     align-items: center;
     flex-direction: column;
     padding: 42px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    /* margin-bottom: 25px; */
 }
 
 .squares-wrapper > .squares > .square > .square-text p {
-    color: darkgray;
+    color: #3e4348;
+    font-size: 1.1em;
+    
 }
 
