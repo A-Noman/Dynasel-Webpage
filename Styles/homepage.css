@@ -52,26 +52,34 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
-    display: flex;
     justify-content: center;
     align-items: flex-start;
     box-shadow: inset 0px -131px 64px -93px rgba(0, 0, 0, 0.58);
 }
 
 .feature-wrapper div {
-    padding: 20px;
-    width: 300px;
-    text-align: center;
     border-bottom: 5px solid transparent;
     border-radius: 10px;
     transition: 0.5s;
+}
+
+.feature-wrapper > .feature-heading {
+    padding: 30px 20px 20px 45px;
+}
+
+.feature-wrapper > .column-wrapper img {
+    width: 100%;
 }
 
 .feature-wrapper > .column-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1300px;
+    padding: 0px 40px 20px 40px;
+}
+
+.feature-wrapper > .column-wrapper div {
+ padding-bottom: 15px;
 }
 
 .feature-wrapper > .column-wrapper div:hover {
