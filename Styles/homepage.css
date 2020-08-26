@@ -18,6 +18,39 @@
     border-radius: 10px;
 } */
 
+
+
+.about-button {
+    margin: 10px;
+    background-color: #fbfbfd;
+    width: 410px;
+    margin: 10px 10px 10px 0px;
+    font-family: 'Sedgwick Ave', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 475px;
+    border: none;
+    transition: 0.2s;
+  }
+
+#gray-space :hover {
+    background-color: #ebebed;
+    cursor: pointer;
+  }
+
+  #gray-space :focus {
+      outline: none;
+  }
+
+
+
+
+
+
+
+
 .function-wrapper > .bottom-heading {
     padding: 2px 15px;
     background-color: #245f86;
@@ -26,7 +59,7 @@
     border-radius: 10px;
 }
 
-.about-button {
+/* .about-button {
     padding: 2px 15px;
     background-color: #398AC1;
     color: #ffffff;
@@ -42,7 +75,7 @@
     background-color: #cbcbcb;
     border: 1px solid #cbcbcb;
     color: black;
-}
+} */
 
 
 

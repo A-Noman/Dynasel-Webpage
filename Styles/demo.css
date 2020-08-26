@@ -136,7 +136,7 @@
       
   }
   
-  .gray-space {
+  .gray-space-wrapper {
     margin: 10px;
     background-color:#fbfbfd;
     width: 410px;
@@ -146,6 +146,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .gray-space-wrapper > .gray-space h2 {
+    font-family: 'Sedgwick Ave', cursive;
   }
   
   
