@@ -55,7 +55,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border-top: 15px solid white;
     box-shadow: inset 0px -131px 64px -93px rgba(0, 0, 0, 0.58);
 }
 
