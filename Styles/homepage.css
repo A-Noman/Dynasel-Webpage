@@ -18,7 +18,9 @@
     border-radius: 10px;
 } */
 
-
+.link-bar {
+    margin-top: 20px;
+}
 
 .about-button {
     margin: 10px;
@@ -34,6 +36,10 @@
     border: none;
     transition: 0.2s;
   }
+
+  .about-button > #after-text {
+    visibility: hidden;
+}
 
 #gray-space :hover {
     background-color: #ebebed;

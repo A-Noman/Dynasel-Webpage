@@ -1,15 +1,46 @@
 @media (max-width: 615px) {
     .navigation-wrapper {
         flex-direction: column;
-        height: 100%;
+        border-bottom: none;
     }
 
     .navigation-wrapper > .home-button {
         margin-bottom: 10px;
     }
 
-    .navigation-wrapper > .trade-buttons {
-        margin-bottom: 10px;
+    .navigation-wrapper > .link-bar-wrapper {
+        width: 100%;
+    }
+
+    .navigation-wrapper > .link-bar-wrapper > .link-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation-wrapper > .link-bar-wrapper > .link-bar > .link {
+        margin-bottom: 20px;
+    }
+
+    .rt-container {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .about-button {
+        width: 100%;
+        height: 180px;
+        text-align: center;
+    }
+
+
+
+    .about-button > #before-text {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .about-button > #after-text {
+        visibility: visible;
     }
 
     .function-wrapper {
@@ -24,18 +55,24 @@
 
     .feature-wrapper {
         width: 100%;
+        height: 283.5px;
         background-size: contain;
         border-top: none;
         box-shadow: inset 0px -131px 64px -93px rgba(0, 0, 0, 0.58);
     }
 
+    .feature-wrapper h1 {
+        visibility: hidden;
+    }
+
+    .feature-wrapper > .column-wrapper a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .feature-wrapper > .column-wrapper {
         flex-direction: column;
         margin-top: -560px;
-    }
-
-    .map {
-        margin-top: -450px;
     }
 
     .footer-wrapper > .footer-content {
@@ -48,5 +85,9 @@
     .footer-wrapper > .footer-content > .trade-buttons {
         width: 100%;
         justify-content: center;
+    }
+
+    .footer-content > .copyright {
+        padding-bottom: 10px;
     }
 }
